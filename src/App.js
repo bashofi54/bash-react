@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Komponen from './Materi/Komponen';
+import Styling from './Materi/Styling';
 
 function App() {
   return (
     <div className="App">
       <Komponen />
+      <Styling />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
