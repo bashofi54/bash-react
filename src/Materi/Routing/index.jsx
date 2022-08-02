@@ -17,11 +17,8 @@ const Routing = () => {
                     {/* Sebagai child component <Route> */}
                     <Route exact path="/" children={() => <Home />} /> 
                     <Route path="/service" children={() => <Service />} />
-
+                    <Route path="/client" children={() => <Client />} />
                      {/* Sebagai props children pada <Route> */}
-                    <Route path="/client">
-                        <Client />
-                    </Route>
                     <Route path="/contact">
                         <Contact />
                     </Route>
