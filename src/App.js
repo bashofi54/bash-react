@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import Routing from './Materi/Routing';
 // import Komponen from './Materi/Komponen';
 // import Styling from './Materi/Styling';
@@ -10,7 +10,7 @@ import Routing from './Materi/Routing';
 
 function App() {
   return (
-    <div >
+    <div className="App">
       {/* <Komponen />
       <Styling />
       <header className="App-header">
