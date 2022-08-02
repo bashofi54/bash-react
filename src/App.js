@@ -32,6 +32,7 @@ function App() {
       <Form />
       <Lifecycle /> */}
       <Routing />
+      learn react
     </div>
   );
 }
